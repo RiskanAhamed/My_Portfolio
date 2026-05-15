@@ -25,7 +25,7 @@ riskan-portfolio/
 3. Go to **Settings → Pages**
 4. Under **Source**, select **main** branch → **/ (root)**
 5. Click **Save**
-6. Your site will be live at: `https://riskan-12.github.io/riskan-portfolio`
+6. Your site will be live at: `chipper-maamoul-f84522.netlify.app`
 
 ## Contact
 - Email: riskanahamed.work@mail.com
