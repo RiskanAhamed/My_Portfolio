@@ -2,7 +2,7 @@
 
 Personal developer portfolio for **Riskan Ahamed**, Junior Full Stack Developer from Akkaraipattu, Sri Lanka.
 
-🌐 **Live site:** chipper-maamoul-f84522.netlify.app
+🌐 **Live site:** https://chipper-maamoul-f84522.netlify.app/
 
 ## Tech Used
 - HTML5, CSS3, Vanilla JavaScript
