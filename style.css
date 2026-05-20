@@ -337,51 +337,61 @@ section { position: relative; z-index: 1; padding: 6rem 4rem; }
   display: inline-flex; align-items: center; gap: 0.3rem;
 }
 
-#certificates {
-  padding: 60px 20px;
-  text-align: center;
-  color: #00eaff;
+/* --- CERTIFICATES --- */
+.certificates-bg {
+  background: linear-gradient(180deg, var(--bg) 0%, var(--bg2) 50%, var(--bg) 100%);
 }
 
-.cert-container {
+.certificates-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
-  max-width: 1000px;
-  margin: auto;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
 }
 
-.cert-card {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid #00eaff;
-  border-radius: 12px;
-  padding: 25px;
-  box-shadow: 0 0 20px #00eaff55;
-  transition: 0.3s;
+.certificate-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1.5rem;
+  transition: all 0.3s;
 }
 
-.cert-card:hover {
+.certificate-card:hover {
+  border-color: rgba(0, 245, 255, 0.3);
   transform: translateY(-5px);
-  box-shadow: 0 0 30px #00eaffaa;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 30px rgba(0, 245, 255, 0.08);
 }
 
-.cert-card a {
+.certificate-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  color: var(--c-accent);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.certificate-link {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background: #00eaff;
-  color: #000;
-  font-weight: 600;
-  border-radius: 8px;
+  background: rgba(0, 245, 255, 0.06);
+  border: 1px solid rgba(0, 245, 255, 0.15);
+  border-radius: 2px;
+  color: #a8c8d8;
+  font-size: 0.7rem;
   text-decoration: none;
-  transition: 0.3s;
+  transition: all 0.25s;
 }
 
-.cert-card a:hover {
-  background: #fff;
-  color: #00eaff;
-  box-shadow: 0 0 15px #00eaff;
+.certificate-link:hover {
+  background: rgba(0, 245, 255, 0.12);
+  color: var(--c-van);
+  border-color: rgba(0, 245, 255, 0.4);
 }
+
 
 /* ── PROJECTS ── */
 .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
