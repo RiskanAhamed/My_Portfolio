@@ -20,5 +20,5 @@ riskan-portfolio/
 
 ## Contact
 - Email: riskanahamed.work@mail.com
-- GitHub: https://github.com/Riskan-12
+- GitHub: https://github.com/RiskanAhamed
 - LinkedIn: https://www.linkedin.com/in/riskan-ahamed
