@@ -250,13 +250,6 @@ align-items: center;
 }
 
 /* ── SECTIONS ── */
-nav {
-  scroll-margin-bottom: 0;
-}
-section {
-  scroll-margin-top: 140px;
-}
-
 .section-label {
   font-family: 'JetBrains Mono', monospace; font-size: 0.65rem;
   color: var(--cyan); letter-spacing: 0.3em; text-transform: uppercase;
