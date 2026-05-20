@@ -247,7 +247,7 @@ nav {
 }
 
 /* ── SECTIONS ── */
-section { position: relative; z-index: 1; padding: 6rem 4rem; }
+section { position: relative; z-index: 1; padding: 4rem 4rem; }
 .section-label {
   font-family: 'JetBrains Mono', monospace; font-size: 0.65rem;
   color: var(--cyan); letter-spacing: 0.3em; text-transform: uppercase;
