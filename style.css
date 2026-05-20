@@ -337,6 +337,52 @@ section { position: relative; z-index: 1; padding: 6rem 4rem; }
   display: inline-flex; align-items: center; gap: 0.3rem;
 }
 
+#certificates {
+  padding: 60px 20px;
+  text-align: center;
+  color: #00eaff;
+}
+
+.cert-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.cert-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid #00eaff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 0 20px #00eaff55;
+  transition: 0.3s;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 30px #00eaffaa;
+}
+
+.cert-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #00eaff;
+  color: #000;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cert-card a:hover {
+  background: #fff;
+  color: #00eaff;
+  box-shadow: 0 0 15px #00eaff;
+}
+
 /* ── PROJECTS ── */
 .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
 .project-card {
