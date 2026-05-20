@@ -246,21 +246,32 @@ nav {
   font-size: 0.55rem; font-weight: 700;
   padding: 0.4rem 0.8rem; border-radius: 2px; letter-spacing: 0.15em;
 }
-
 /* ── SECTIONS ── */
 .section-label {
-  font-family: 'JetBrains Mono', monospace; font-size: 0.65rem;
-  color: var(--cyan); letter-spacing: 0.3em; text-transform: uppercase;
-  margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.75rem;
+  font-family: 'JetBrains Mono', monospace; 
+  font-size: 0.65rem;
+  color: var(--cyan); 
+  letter-spacing: 0.3em; 
+  text-transform: uppercase;
+  margin-bottom: 0.75rem; 
+  display: flex; 
+  align-items: center; 
+  gap: 0.75rem;
 }
-.section-label::before { content: ''; width: 30px; height: 1px; background: var(--cyan); }
+
+.section-label::before { 
+  content: ''; 
+  width: 30px; 
+  height: 1px; 
+  background: var(--cyan); 
+}
+
 .section-title {
   font-family: 'Orbitron', monospace;
   font-size: clamp(1.8rem, 3vw, 2.4rem);
-  font-weight: 700; margin-bottom: 4rem; color: #fff;
-}
-section + section {
-  margin-top: 7rem;
+  font-weight: 700; 
+  margin-bottom: 4rem; 
+  color: #fff;
 }
 
 /* GLOBAL SECTION SPACING */
