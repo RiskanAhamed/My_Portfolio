@@ -259,6 +259,9 @@ nav {
   font-size: clamp(1.8rem, 3vw, 2.4rem);
   font-weight: 700; margin-bottom: 4rem; color: #fff;
 }
+section + section {
+  margin-top: 7rem;
+}
 
 /* GLOBAL SECTION SPACING */
 section {
