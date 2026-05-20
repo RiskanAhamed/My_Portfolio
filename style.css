@@ -284,6 +284,9 @@ section { position: relative; z-index: 1; padding: 6rem 4rem; }
 .h-desc { font-size: 0.8rem; color: var(--muted); line-height: 1.6; }
 
 /* ── INTERESTS ── */
+#interests {
+  scroll-margin-top: 150px;
+}
 .interests-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; }
 .interest-card {
   background: var(--surface); border: 1px solid var(--border);
