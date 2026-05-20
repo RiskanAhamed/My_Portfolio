@@ -15,7 +15,7 @@
   --border: rgba(0,245,255,0.12);
   --glow: 0 0 30px rgba(0,245,255,0.15);
 }
-
+cursor: default;
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
@@ -147,6 +147,7 @@ align-items: center;
 }
 .hero h1 .name-line {
   display: block;
+  cursor: pointer;
   background: linear-gradient(135deg, #fff 0%, var(--cyan) 50%, var(--blue) 100%);
   -webkit-background-clip: text; -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -250,6 +251,12 @@ align-items: center;
 }
 
 /* ── SECTIONS ── */
+.section-title {
+  margin-bottom: 4rem;
+}
+section {
+  padding: 6rem 4rem;
+}
 .section-label {
   font-family: 'JetBrains Mono', monospace; font-size: 0.65rem;
   color: var(--cyan); letter-spacing: 0.3em; text-transform: uppercase;
@@ -286,6 +293,9 @@ align-items: center;
 .h-desc { font-size: 0.8rem; color: var(--muted); line-height: 1.6; }
 
 /* ── INTERESTS ── */
+.interests-grid {
+  gap: 2.5rem;
+}
 .interests-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; }
 .interest-card {
   background: var(--surface); border: 1px solid var(--border);
@@ -307,6 +317,9 @@ align-items: center;
 .interest-desc { font-size: 0.8rem; color: var(--muted); line-height: 1.6; }
 
 /* ── SKILLS ── */
+.skills-grid {
+  gap: 2.5rem;
+}
 .skills-bg { background: linear-gradient(180deg, var(--bg) 0%, var(--bg2) 50%, var(--bg) 100%); }
 .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; }
 .skill-category {
@@ -340,6 +353,9 @@ align-items: center;
 }
 
 /* --- CERTIFICATES --- */
+.certificates-grid {
+  gap: 2.5rem;
+}
 .certificates-section {
   margin-top: 6rem;
   text-align: center;
@@ -415,6 +431,9 @@ align-items: center;
 
 
 /* ── PROJECTS ── */
+.projects-grid {
+  gap: 2.5rem;
+}
 .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
 .project-card {
   background: var(--surface); border: 1px solid var(--border);
@@ -509,6 +528,9 @@ align-items: center;
   background: var(--surface2);
 }
 .form-input::placeholder, .form-textarea::placeholder { color: var(--muted); }
+section + section {
+  margin-top: 6rem;
+}
 
 /* ── FOOTER ── */
 footer {
